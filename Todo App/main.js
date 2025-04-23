@@ -17,4 +17,7 @@
      todoContainer.appendChild(todoTitle);
      todoContainer.appendChild(doneButton);
      const alltodoContainer = document.querySelector('#todosContaine');
+
+     alltodoContainer.appendChild(todoContainer);
+     inputElement.value = '';
     }
